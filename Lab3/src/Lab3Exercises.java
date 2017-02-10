@@ -10,7 +10,7 @@ public class Lab3Exercises {
 		sizeofscreen.getHeight();
 		sizeofscreen.getWidth();
 		myFrame.setLocation(sizeofscreen.width/2, sizeofscreen.height/2);
-		myFrame.setSize(200, 200);
+		myFrame.setSize(500, 500);
 		MyPanelClass myPanel = new MyPanelClass();
 		myFrame.getContentPane().add(myPanel);
 		myFrame.setVisible(true);
